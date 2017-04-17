@@ -1,0 +1,34 @@
+{
+  "name": "atividade-design-responsivo",
+  "version": "1.0.0",
+  "description": "Atividade do módulo de Design Responsivo",
+  "main": "source/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/suelenbraga2006/atividade-design-responsivo.git"
+  },
+  "keywords": [
+    "atividade",
+    "design",
+    "responsivo",
+    "certificacao"
+  ],
+  "author": "Suelen Braga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/suelenbraga2006/atividade-design-responsivo/issues"
+  },
+  "homepage": "https://github.com/suelenbraga2006/atividade-design-responsivo#readme",
+  "devDependencies": {
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-htmlmin": "^3.0.0",
+    "gulp-notify": "^3.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  }
+}

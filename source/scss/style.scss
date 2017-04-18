@@ -3,7 +3,7 @@
 }
 
 .container{
-    width: 1200px;
+    width: auto;
     margin: 0 auto;
 }
 
@@ -21,7 +21,7 @@
     position: relative;
     float: left;
     min-height: 1px;
-    padding: 0 30px;
+    padding: 0 15px;
 }
 
 .col-1{
@@ -76,9 +76,20 @@
     background-color: orange;
 }
 
+@media (min-width: 768px){
+    .container{
+        width: 750px;
+    }
+}
 
+@media (min-width: 992px) {
+    .container{
+        width: 970px;
+    }
+}
 
-
-
-
-
+@media (min-width: 1200px) {
+    .container{
+        width:1170px;
+    }
+}

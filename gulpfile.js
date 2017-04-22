@@ -31,7 +31,7 @@ gulp.task('minificarcss', ['apaga', 'compilarsass'], function(){
 });
 
 gulp.task('monitorar', function(){
-    gulp.watch('./source/scss/*.scss', ['minificarcss']);
+    gulp.watch('./source/scss/**/*.scss', ['minificarcss']);
     gulp.watch('./source/*.html', ['minificarhtml']);
 });
 
